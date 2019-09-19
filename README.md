@@ -1,9 +1,6 @@
-"# first-app" 
-"***************** Commands ********************"
-
---> Install a Package 
-    1. Register A New Package "npm i [package name]
-    2. Register A Global Package #npm i -g [package name]
+--> Install a Package\n
+    --> Register A New Package "npm i [package name]
+    --> Register A Global Package #npm i -g [package name]
 
 --> Install express (npm i express)
     About To Create RestFul Call
