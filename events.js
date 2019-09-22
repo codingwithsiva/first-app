@@ -5,6 +5,6 @@ const logger = new Logger();
 
 logger.on('messageLogged', function (args) {
     console.log("Listner Called", args);
-});
+}); 
 
 logger.log("message123");
