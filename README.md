@@ -7,6 +7,9 @@
 
 --> Install nodemon (npm i -g nodemon)
 --> This is a Global Package This is all about restart a command line when change occurs in any file
+
+--> Install joi (npm i joi)
+--> This is about validate request object
     
 --> Set Environment Variable(process.env.[variable name])
 --> To set environment variable goto command line enter "set [variable name]=[variable value]"
