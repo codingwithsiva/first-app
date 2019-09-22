@@ -1,3 +1,14 @@
+
+
+function log(req, res, next) {
+    console.log('Logging...........');
+    next();
+}
+
+module.exports = log;
+
+
+/*
 const EventEmitter = require('events');
 
 var url = "http://code.com/api/";
@@ -14,3 +25,4 @@ class Logger extends EventEmitter {
 }
 
 module.exports = Logger;
+*/

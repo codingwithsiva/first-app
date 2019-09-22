@@ -1,8 +1,12 @@
 const express = require('express');
 const Joi = require('joi');
 const app = express();
+const log = require('./logger');
 
-app.use(express.json());
+app.use(express.json()); // Use to Convert payload To req.body
+app.use(express.urlencoded({ extended: true })); // Use to Convert FormData To req.body
+app.use(express.static('public')); // To serve static File Inside public Folder Like readme.txt or readme.html
+app.use(log)
 
 const port = process.env.PORT || 3000;
 const courses = [
