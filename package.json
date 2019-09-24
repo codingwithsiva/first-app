@@ -1,0 +1,29 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "--> Install a Package\r --> Register A New Package \"npm i [package name]\r --> Register A Global Package #npm i -g [package name]",
+  "main": "express.js",
+  "dependencies": {
+    "config": "^3.2.2",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "joi": "^14.3.1",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingwithsiva/first-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codingwithsiva/first-app/issues"
+  },
+  "homepage": "https://github.com/codingwithsiva/first-app#readme"
+}
