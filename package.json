@@ -4,7 +4,7 @@
   "description": "--> Install a Package\r --> Register A New Package \"npm i [package name]\r --> Register A Global Package #npm i -g [package name]",
   "main": "express.js",
   "dependencies": {
-    "config": "^3.2.2",
+    "config": "^3.3.8",
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "helmet": "^3.21.1",
